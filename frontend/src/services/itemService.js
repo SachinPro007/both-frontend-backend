@@ -1,4 +1,4 @@
-const baseUrl = "https://both-frontend-backend.vercel.app/api/todos";
+const baseUrl = "https://both-frontend-backend.onrender.com/api/todos";
 
 const getItemsFromServer = async () => {
   const response = await fetch(baseUrl)
